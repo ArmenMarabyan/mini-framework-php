@@ -2,8 +2,7 @@
 
 namespace app\controllers;
 
-class TestController
-{
+class TestController extends AppController{
     public function actionIndex() {
         echo "TestController action index";
     }

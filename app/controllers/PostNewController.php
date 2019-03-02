@@ -2,8 +2,7 @@
 
 namespace app\controllers;
 
-class PostNewController
-{
+class PostNewController extends AppController {
     public function __construct()
     {
         echo 'PostNewController';

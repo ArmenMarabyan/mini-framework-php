@@ -2,11 +2,10 @@
 
 namespace app\controllers;
 
-class PostController {
-    public function __construct()
-    {
-        echo 'PostsController asd';
-    }
+
+class PostsController extends AppController {
+
+
 
     public function actionIndex() {
         echo '<br> PostsController actionIndex';

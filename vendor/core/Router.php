@@ -51,7 +51,6 @@ class Router {
     public static function matchRoute($uri) {
         foreach(self::$routes as $pattern => $route) {
             if(preg_match("#$pattern#i", $uri, $matches)) {
-                debug($matches);
                 foreach($matches as $key => $value) {
 
                     if(is_string($key)) {
@@ -61,8 +60,8 @@ class Router {
                 if(!isset($route['action'])) {
                     $route['action'] = 'index';
                 }
+                $route['controller'] = self::upperCamelCase($route['controller']);
                 self::$route = $route;
-                debug($route);
                 return true;
             }
         }
@@ -74,16 +73,18 @@ class Router {
      * @param $uri
      */
     public static function dispatch($uri) {
+       $uri = self::removeQueryString($uri);
         if(self::matchRoute($uri)) {
 //            $controllerName = self::$route['controller'].'Controller';
 
-            $controllerName = 'app\controllers\\'.self::upperCamelCase(self::$route['controller']).'Controller';
+            $controllerName = 'app\controllers\\'.self::$route['controller'].'Controller';
             if(class_exists($controllerName)) {
-                $controllerObject = new $controllerName;
+                $controllerObject = new $controllerName(self::$route);
                 $actionName = 'action' .self::upperCamelCase(self::$route['action']);
 
                 if(method_exists($controllerObject, $actionName)) {
                     $controllerObject->$actionName();
+                    $controllerObject->getView();
                 }else {
                     echo "method: $actionName не найден <br>";
                 }
@@ -108,6 +109,18 @@ class Router {
         $name = str_replace(' ', '', $name);
 
         return $name;
+    }
+
+    protected static function removeQueryString($uri) {
+        if($uri) {
+            $params = explode('&', $uri, 2);
+            if(false === strpos($params[0], '=')) {
+                return rtrim($params[0], '/');
+            }else {
+                return '';
+            }
+            return $uri;
+        }
     }
 
 
