@@ -2,15 +2,20 @@
 
 namespace app\controllers;
 
+use app\models\Main;
 
 class PageController extends AppController {
 
     public function actionView() {
-        echo 'view';
+        $model = new Main;
+        $news = \R::findOne('news', 'id=2');
+        $this->setMeta('view');
+        $meta = $this->meta;
+        $this->set(compact('meta', 'news'));
+    }
 
-//        if($this->route['alias'] == 'about') {
-//            echo 'about';
-//        }
+    public function actionIndex() {
+        echo 'index';
     }
 
 }

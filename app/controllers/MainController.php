@@ -5,11 +5,23 @@ namespace app\controllers;
 
 
 use app\models\Main;
+use vendor\core\App;
 
 class MainController extends AppController {
 
     public function actionIndex() {
         $model = new Main;
+
+//        Пример использование кэша
+//        $newsList = App::$app->cache->get('news'); // Получает данные кэша в виде массива
+//        if(!$newsList) {
+//            echo 'kan';
+//            $newsList = \R::findAll('news');// запрос
+//            App::$app->cache->set('news', $newsList); // создает файл кэша и добавляет туда данные
+//        }
+//        App::$app->cache->deleteCache('news'); // удаляет файл кэша
+
+//        App::$app->getList();
 
 
 //        $one = $model->findOne(1);
@@ -17,7 +29,6 @@ class MainController extends AppController {
 //        $three = $model->search('am', 'short', 'news');
 //        $four = $model->query("SELECT * FROM news WHERE short LIKE ?", ['%am%']);
 //        $five = $model->query("SELECT * FROM users");
-
 //        $six = $model->exec("CREATE TABLE test (
 //            test_id int,
 //    LastName varchar(255),
@@ -26,11 +37,12 @@ class MainController extends AppController {
 //    City varchar(255)
 //)");
 
-//        $newsList = $model->findAll();
-            $newsList = \R::findAll('news');
-            $this->setMeta('Главная', 'Описание', 'Ключевые слова');
-            $meta = $this->meta;
-//            debug($newsList);
+
+//        \R::fancyDebug(true);
+
+        $newsList = \R::findAll('news');// запрос
+        $this->setMeta('Главная', 'Описание', 'Ключевые слова');
+        $meta = $this->meta;
         $this->set(compact('newsList', 'meta'));
 
     }

@@ -10,6 +10,7 @@ define('CORE', dirname(__DIR__).'/vendor/core');
 define('ROOT', dirname(__DIR__));
 define('APP', dirname(__DIR__) . '/app');
 define('LIBS', dirname(__DIR__) . '/vendor/libs');
+define('CACHE', dirname(__DIR__) . '/tmp/cache');
 define('LAYOUT', 'default');
 
 
@@ -22,6 +23,8 @@ spl_autoload_register(function($class) {
         require_once $file;
     }
 });
+
+new \vendor\core\App;
 
 //пользовательские маршруты
 Router::add('^page/(?P<action>[a-z-]+)/(?P<alias>[a-z-]+)$', ['controller' => 'Page']);
