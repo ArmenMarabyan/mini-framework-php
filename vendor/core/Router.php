@@ -86,15 +86,16 @@ class Router {
                     $controllerObject->$actionName();
                     $controllerObject->getView();
                 }else {
-                    echo "method: $actionName не найден <br>";
+//                    echo "method: $actionName не найден <br>";
+                    throw new \Exception("method: $actionName не найден", 404);
                 }
             }else {
-                echo "controller: $controllerName не найден <br>";
+                throw new \Exception("controller: $controllerName не найден", 404);
+
+//                echo "controller: $controllerName не найден <br>";
             }
         }else {
-            http_response_code(404);
-            echo "404.html";
-
+            throw new \Exception("Страница не найдена", 404);
         }
     }
 

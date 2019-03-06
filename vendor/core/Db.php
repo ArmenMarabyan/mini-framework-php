@@ -5,8 +5,9 @@ use R;
 
 class Db {
 
+    use TSingleton;
+
     private $pdo;
-    private static $instance;
     public static $countSql = 0;
     public static $queries = [];
 
@@ -24,13 +25,6 @@ class Db {
 //        подключение без использования ORM
 //        $this->pdo = new \PDO($db['dsn'], $db['user'], $db['password']);
 //        $this->pdo->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);
-    }
-
-    public static function instance() {
-        if(self::$instance === null) {
-            self::$instance = new self;
-        }
-        return self::$instance;
     }
 
 

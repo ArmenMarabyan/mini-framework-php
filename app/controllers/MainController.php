@@ -6,11 +6,23 @@ namespace app\controllers;
 
 use app\models\Main;
 use vendor\core\App;
+use vendor\core\base\View;
 
 class MainController extends AppController {
 
     public function actionIndex() {
+
+
         $model = new Main;
+        echo $test;
+        if($this->isAjax()) {
+            sleep(1);
+            $news = \R::findOne("news", "id = {$_POST['id']}");
+            $this->loadView('Main/test', compact('news'));
+            die;
+        }
+
+
 
 //        Пример использование кэша
 //        $newsList = App::$app->cache->get('news'); // Получает данные кэша в виде массива
@@ -41,9 +53,15 @@ class MainController extends AppController {
 //        \R::fancyDebug(true);
 
         $newsList = \R::findAll('news');// запрос
-        $this->setMeta('Главная', 'Описание', 'Ключевые слова');
-        $meta = $this->meta;
+//        $this->setMeta('Главная', 'Описание', 'Ключевые слова');
+//        $meta = $this->meta;
+        View::setMeta('Главная', 'Описание', 'Ключевые слова');
         $this->set(compact('newsList', 'meta'));
+
+    }
+
+    public function actionTest() {
+        echo __METHOD__;
 
     }
 }

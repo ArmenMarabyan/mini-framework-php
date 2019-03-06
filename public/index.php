@@ -1,6 +1,4 @@
 <?php
-error_reporting(E_ALL);
-
 use vendor\core\Router;
 
 $uri = rtrim($_SERVER['QUERY_STRING'], '/');
@@ -12,6 +10,7 @@ define('APP', dirname(__DIR__) . '/app');
 define('LIBS', dirname(__DIR__) . '/vendor/libs');
 define('CACHE', dirname(__DIR__) . '/tmp/cache');
 define('LAYOUT', 'default');
+define('DEBUG', 1);
 
 
 require_once '../vendor/libs/functions.php';
