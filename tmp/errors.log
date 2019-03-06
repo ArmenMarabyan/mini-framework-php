@@ -1,3 +1,139 @@
 [2019-03-06 15:31:44] Текст ошибки: syntax error, unexpected 'if' (T_IF) | Файл: C:\OSPanel\domains\localhost\fw_v2\app\controllers\MainController.php | Строка: 17
 ======
 
+[2019-03-06 21:32:50] Текст ошибки: controller: app\controllers\DashboardController не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\Router.php | Строка: 93
+======
+[2019-03-06 21:33:20] Текст ошибки: controller: app\controllers\DashboardController не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\Router.php | Строка: 93
+======
+[2019-03-06 21:36:23] Текст ошибки: controller: app\controllers\DashboardController не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\Router.php | Строка: 94
+======
+[2019-03-06 21:36:40] Текст ошибки: controller: app\controllers\DashboardController не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\Router.php | Строка: 95
+======
+[2019-03-06 21:37:12] Текст ошибки: controller: app\controllers\DashboardController не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\Router.php | Строка: 94
+======
+[2019-03-06 21:37:25] Текст ошибки: controller: app\controllers\DashboardController не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\Router.php | Строка: 94
+======
+[2019-03-06 21:37:31] Текст ошибки: controller: app\controllers\DashboardController не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\Router.php | Строка: 95
+======
+[2019-03-06 21:38:03] Текст ошибки: controller: app\controllers\DashboardController не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\Router.php | Строка: 94
+======
+[2019-03-06 21:38:08] Текст ошибки: controller: app\controllers\DashboardController не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\Router.php | Строка: 95
+======
+[2019-03-06 21:38:20] Текст ошибки: controller: app\controllers\DashboardController не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\Router.php | Строка: 94
+======
+[2019-03-06 21:39:31] Текст ошибки: controller: app\controllers\DashboardController не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\Router.php | Строка: 100
+======
+[2019-03-06 21:40:54] Текст ошибки: controller: app\controllers\DashboardController не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\Router.php | Строка: 102
+======
+[2019-03-06 21:41:13] Текст ошибки: Undefined variable: test | Файл: C:\OSPanel\domains\localhost\fw_v2\app\controllers\MainController.php | Строка: 17
+======
+[2019-03-06 21:41:18] Текст ошибки: controller: app\controllers\DashboardController не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\Router.php | Строка: 102
+======
+[2019-03-06 21:43:14] Текст ошибки: controller: app\controllers\admin\DashboardController не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\Router.php | Строка: 100
+======
+[2019-03-06 21:43:20] Текст ошибки: Undefined variable: test | Файл: C:\OSPanel\domains\localhost\fw_v2\app\controllers\MainController.php | Строка: 17
+======
+[2019-03-06 21:43:28] Текст ошибки: controller: app\controllers\admin\DashboardController не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\Router.php | Строка: 99
+======
+[2019-03-06 21:50:31] Текст ошибки: Page noot found | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\base\View.php | Строка: 77
+======
+[2019-03-06 21:50:46] Текст ошибки: <p>Шаблон: <b>C:\OSPanel\domains\localhost\fw_v2/app/views/Dashboard/index.php</b> не найден</p> | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\base\View.php | Строка: 76
+======
+[2019-03-06 21:51:25] Текст ошибки: <p>Шаблон: <b>C:\OSPanel\domains\localhost\fw_v2/app/views/Dashboard/index.php</b> не найден</p> | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\base\View.php | Строка: 76
+======
+[2019-03-06 21:51:52] Текст ошибки: Шаблон: <b>C:\OSPanel\domains\localhost\fw_v2/app/views/Dashboard/index.php</b> не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\base\View.php | Строка: 76
+======
+[2019-03-06 21:52:22] Текст ошибки: Undefined variable: test | Файл: C:\OSPanel\domains\localhost\fw_v2\app\controllers\MainController.php | Строка: 17
+======
+[2019-03-06 21:52:43] Текст ошибки: Шаблон: <b>C:\OSPanel\domains\localhost\fw_v2/app/views/Dashboard/index.php</b> не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\base\View.php | Строка: 76
+======
+[2019-03-06 21:53:26] Текст ошибки: Шаблон: <b>C:\OSPanel\domains\localhost\fw_v2/app/views/Dashboard/index.php</b> не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\base\View.php | Строка: 76
+======
+[2019-03-06 21:53:34] Текст ошибки: Undefined index: title | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\base\View.php | Строка: 94
+======
+[2019-03-06 21:53:39] Текст ошибки: Шаблон: <b>C:\OSPanel\domains\localhost\fw_v2/app/views/Dashboard/index.php</b> не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\base\View.php | Строка: 76
+======
+[2019-03-06 21:53:45] Текст ошибки: Шаблон: <b>C:\OSPanel\domains\localhost\fw_v2/app/views/Dashboard/index.php</b> не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\base\View.php | Строка: 76
+======
+[2019-03-06 21:54:49] Текст ошибки: controller: app\controllers\admin\TestController не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\Router.php | Строка: 99
+======
+[2019-03-06 21:54:59] Текст ошибки: Шаблон: <b>C:\OSPanel\domains\localhost\fw_v2/app/views/Dashboard/test.php</b> не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\base\View.php | Строка: 76
+======
+[2019-03-06 21:55:29] Текст ошибки: Undefined index: title | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\base\View.php | Строка: 94
+======
+[2019-03-06 21:57:53] Текст ошибки: Undefined index: title | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\base\View.php | Строка: 94
+======
+[2019-03-06 21:58:42] Текст ошибки: Undefined index: title | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\base\View.php | Строка: 94
+======
+[2019-03-06 21:58:42] Текст ошибки: Undefined index: title | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\base\View.php | Строка: 94
+======
+[2019-03-06 21:58:43] Текст ошибки: Undefined index: title | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\base\View.php | Строка: 94
+======
+[2019-03-06 21:58:43] Текст ошибки: Undefined index: title | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\base\View.php | Строка: 94
+======
+[2019-03-06 21:58:43] Текст ошибки: Undefined index: title | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\base\View.php | Строка: 94
+======
+[2019-03-06 21:58:43] Текст ошибки: Undefined index: title | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\base\View.php | Строка: 94
+======
+[2019-03-06 21:58:44] Текст ошибки: Undefined index: title | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\base\View.php | Строка: 94
+======
+[2019-03-06 21:58:44] Текст ошибки: Undefined index: title | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\base\View.php | Строка: 94
+======
+[2019-03-06 21:58:44] Текст ошибки: Undefined index: title | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\base\View.php | Строка: 94
+======
+[2019-03-06 21:58:44] Текст ошибки: Undefined index: title | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\base\View.php | Строка: 94
+======
+[2019-03-06 21:59:07] Текст ошибки: Class 'app\controllers\View' not found | Файл: C:\OSPanel\domains\localhost\fw_v2\app\controllers\PageController.php | Строка: 12
+======
+[2019-03-06 21:59:19] Текст ошибки: Undefined index: title | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\base\View.php | Строка: 94
+======
+[2019-03-06 22:00:34] Текст ошибки: Undefined index: title | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\base\View.php | Строка: 94
+======
+[2019-03-06 22:04:46] Текст ошибки: file: <b>C:\OSPanel\domains\localhost\fw_v2/app/views/admin\Dashboard/index.php</b> не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\base\View.php | Строка: 63
+======
+[2019-03-06 22:05:23] Текст ошибки: Class 'mysql_xdevapi\Exception' not found | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\base\View.php | Строка: 62
+======
+[2019-03-06 22:05:31] Текст ошибки: file: <b>C:\OSPanel\domains\localhost\fw_v2/app/views/admin\Dashboard/index.php</b> не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\base\View.php | Строка: 62
+======
+[2019-03-06 22:06:00] Текст ошибки: file: <b>C:\OSPanel\domains\localhost\fw_v2/app/views/admin\Dashboard/index.php</b> не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\base\View.php | Строка: 62
+======
+[2019-03-06 22:09:00] Текст ошибки: file: <b>C:\OSPanel\domains\localhost\fw_v2/app/views/admin\Dashboard/index.php</b> не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\base\View.php | Строка: 62
+======
+[2019-03-06 22:10:06] Текст ошибки: file: <b>C:\OSPanel\domains\localhost\fw_v2/app/views/admin\Dashboard/test.php</b> не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\base\View.php | Строка: 62
+======
+[2019-03-06 22:24:10] Текст ошибки: Class 'R' not found | Файл: C:\OSPanel\domains\localhost\fw_v2\app\controllers\admin\AppController.php | Строка: 11
+======
+[2019-03-06 22:24:41] Текст ошибки: Class 'app\controllers\admin\User' not found | Файл: C:\OSPanel\domains\localhost\fw_v2\app\controllers\admin\AppController.php | Строка: 15
+======
+[2019-03-06 22:25:14] Текст ошибки: Trying to get property 'role' of non-object | Файл: C:\OSPanel\domains\localhost\fw_v2\app\controllers\admin\AppController.php | Строка: 18
+======
+[2019-03-06 22:28:08] Текст ошибки: Class 'app\controllers\admin\Main' not found | Файл: C:\OSPanel\domains\localhost\fw_v2\app\controllers\admin\AppController.php | Строка: 16
+======
+[2019-03-06 22:33:30] Текст ошибки: Undefined variable: _SESSION | Файл: C:\OSPanel\domains\localhost\fw_v2\app\controllers\admin\AppController.php | Строка: 19
+======
+[2019-03-06 22:35:06] Текст ошибки: file: <b>C:\OSPanel\domains\localhost\fw_v2/app/views/admin\Dashboard/test.php</b> не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\core\base\View.php | Строка: 62
+======
+[2019-03-06 23:49:48] Текст ошибки: Class 'vendor\core\Router' not found | Файл: C:\OSPanel\domains\localhost\fw_v2\public\index.php | Строка: 29
+======
+[2019-03-06 23:50:04] Текст ошибки: Class 'vendor\core\base\Controller' not found | Файл: C:\OSPanel\domains\localhost\fw_v2\app\controllers\admin\AppController.php | Строка: 7
+======
+[2019-03-06 23:50:19] Текст ошибки: Class 'vendor\core\base\Controller' not found | Файл: C:\OSPanel\domains\localhost\fw_v2\app\controllers\admin\AppController.php | Строка: 7
+======
+[2019-03-06 23:50:21] Текст ошибки: Class 'vendor\core\base\Controller' not found | Файл: C:\OSPanel\domains\localhost\fw_v2\app\controllers\admin\AppController.php | Строка: 7
+======
+[2019-03-06 23:50:21] Текст ошибки: Class 'vendor\core\base\Controller' not found | Файл: C:\OSPanel\domains\localhost\fw_v2\app\controllers\admin\AppController.php | Строка: 7
+======
+[2019-03-06 23:50:30] Текст ошибки: Class 'vendor\core\base\View' not found | Файл: C:\OSPanel\domains\localhost\fw_v2\app\controllers\admin\DashboardController.php | Строка: 12
+======
+[2019-03-06 23:50:44] Текст ошибки: Class 'vendor\core\base\View' not found | Файл: C:\OSPanel\domains\localhost\fw_v2\app\views\layouts\admin.php | Строка: 6
+======
+[2019-03-06 23:51:04] Текст ошибки: Class 'vendor\core\base\Model' not found | Файл: C:\OSPanel\domains\localhost\fw_v2\app\models\Main.php | Строка: 6
+======
+[2019-03-06 23:51:28] Текст ошибки: Class 'vendor\core\base\View' not found | Файл: C:\OSPanel\domains\localhost\fw_v2\app\controllers\MainController.php | Строка: 57
+======
+[2019-03-06 23:52:39] Текст ошибки: Class 'vendor\core\base\View' not found | Файл: C:\OSPanel\domains\localhost\fw_v2\app\views\layouts\default.php | Строка: 6
+======
+[2019-03-06 23:54:46] Текст ошибки: Class 'vendor\core\base\View' not found | Файл: C:\OSPanel\domains\localhost\fw_v2\app\controllers\PageController.php | Строка: 19
+======
+[2019-03-06 23:54:56] Текст ошибки: file: <b>C:\OSPanel\domains\localhost\fw_v2/app/views/Page/index.php</b> не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\base\View.php | Строка: 62
+======

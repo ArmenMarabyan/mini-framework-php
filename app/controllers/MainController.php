@@ -5,16 +5,14 @@ namespace app\controllers;
 
 
 use app\models\Main;
-use vendor\core\App;
-use vendor\core\base\View;
+use fw\core\App;
+use fw\core\base\View;
+
 
 class MainController extends AppController {
 
     public function actionIndex() {
-
-
         $model = new Main;
-        echo $test;
         if($this->isAjax()) {
             sleep(1);
             $news = \R::findOne("news", "id = {$_POST['id']}");

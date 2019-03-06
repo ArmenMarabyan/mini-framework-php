@@ -3,7 +3,7 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <?php \vendor\core\base\View::getMeta()?>
+    <?php \fw\core\base\View::getMeta()?>
 <!--    --><?php //\fw\core\base\View::getMeta()?>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
