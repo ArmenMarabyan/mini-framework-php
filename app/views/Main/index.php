@@ -16,7 +16,9 @@
 
         </div>
     <?php endforeach; ?>
-
+    <div class="text-center">
+        <?=$pagination?>
+    </div>
 </div>
 
 

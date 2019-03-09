@@ -1,5 +1,7 @@
 <?php
+session_start();
 use fw\core\Router;
+
 
 $uri = rtrim($_SERVER['QUERY_STRING'], '/');
 
@@ -11,6 +13,7 @@ define('LIBS', dirname(__DIR__) . '/vendor/fw/libs');
 define('CACHE', dirname(__DIR__) . '/tmp/cache');
 define('LAYOUT', 'default');
 define('DEBUG', 1);
+define('COMPRESS_HTML', 0);
 
 
 require_once '../vendor/fw/libs/functions.php';

@@ -7,13 +7,26 @@
     <!--    --><?php //\fw\core\base\View::getMeta()?>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="public/bootstrap/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/fw_v2/public/bootstrap/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 
 </head>
 <body>
 <div class="container">
-    <h1>Admin Panel</h1>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/fw_v2">Home</a>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="/fw_v2/admin">Admin</a>
+                <a class="nav-item nav-link" href="/fw_v2/user/register">Reg</a>
+                <a class="nav-item nav-link" href="/fw_v2/user/login">Log</a>
+                <a class="nav-item nav-link" href="/fw_v2/user/logout">Log out</a>
+                <a class="nav-item nav-link" href="/fw_v2/user/logout"><?=(isset($_SESSION['user'])) ? $_SESSION['user']['name'] : ''?></a>
+            </div>
+        </div>
+    </nav>
+
     <?=$content?>
 
 </div>

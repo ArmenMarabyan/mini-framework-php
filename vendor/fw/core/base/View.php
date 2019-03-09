@@ -33,7 +33,7 @@ class View {
      * Мета данные
      * @var array
      */
-    public static $meta = [];
+    public static $meta = ['title' => '', 'desc' => '', 'keywords' => ''];
 
     public function __construct($route, $layout = '', $view = '') {
         $this->route = $route;
@@ -47,6 +47,33 @@ class View {
     }
 
     /**
+     * Своя функция для сжатия страниц HTML
+     * @param $buffer
+     * @return string|string[]|null
+     */
+    protected function compressPage($buffer) {
+        $search = [
+            "/(\n)+/",
+            "/\r\n+/",
+            "/\n(\t)+/",
+            "/\n(\ )+/",
+            "/\>(\n)+</",
+            "/\>\r\n</",
+        ];
+
+        $replace = [
+            "\n",
+            "\n",
+            "\n",
+            "\n",
+            "><",
+            "><",
+        ];
+
+        return preg_replace($search, $replace, $buffer);
+    }
+
+    /**
      * Поключение вида и шаблона
      *
      */
@@ -55,13 +82,22 @@ class View {
             extract($vars);
         }
         $fileView = APP . "/views/{$this->route['prefix']}{$this->route['controller']}/{$this->view}.php";
-        ob_start();
+
+        if(COMPRESS_HTML) {
+            ob_start('ob_gzhandler');
+            header("Content-Encoding: gzip");
+        }else {
+            ob_start();
+        }
+
+
         if(file_exists($fileView)) {
             require_once $fileView;
         }else {
             throw new \Exception("file: <b>$fileView</b> не найден", 404);
         }
-        $content = ob_get_clean();
+        $content = ob_get_contents();
+        ob_clean();
 
         if(false !== $this->layout) {
             $fileLayout = APP . "/views/layouts/{$this->layout}.php";

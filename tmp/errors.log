@@ -137,3 +137,107 @@
 ======
 [2019-03-06 23:54:56] Текст ошибки: file: <b>C:\OSPanel\domains\localhost\fw_v2/app/views/Page/index.php</b> не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\base\View.php | Строка: 62
 ======
+[2019-03-07 16:04:33] Текст ошибки: method: actionIndex не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\Router.php | Строка: 96
+======
+[2019-03-07 16:04:39] Текст ошибки: Undefined index: title | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\base\View.php | Строка: 94
+======
+[2019-03-07 16:06:27] Текст ошибки: method: actionIndex не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\Router.php | Строка: 96
+======
+[2019-03-07 16:12:56] Текст ошибки: method: actionRegsiter не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\Router.php | Строка: 96
+======
+[2019-03-07 16:13:09] Текст ошибки: method: actionRegister не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\Router.php | Строка: 96
+======
+[2019-03-07 16:14:13] Текст ошибки: method: actionIndex не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\Router.php | Строка: 96
+======
+[2019-03-07 16:15:08] Текст ошибки: method: actionIndex не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\Router.php | Строка: 96
+======
+[2019-03-07 16:23:39] Текст ошибки: method: actionIndex не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\Router.php | Строка: 96
+======
+[2019-03-07 16:27:44] Текст ошибки: Undefined variable: news | Файл: C:\OSPanel\domains\localhost\fw_v2\app\views\Main\test.php | Строка: 2
+======
+[2019-03-07 16:28:31] Текст ошибки: Undefined variable: news | Файл: C:\OSPanel\domains\localhost\fw_v2\app\views\Main\test.php | Строка: 2
+======
+[2019-03-07 16:41:50] Текст ошибки: controller: app\controllers\UserController не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\Router.php | Строка: 99
+======
+[2019-03-07 16:42:19] Текст ошибки: controller: app\controllers\UserController не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\Router.php | Строка: 99
+======
+[2019-03-07 16:48:33] Текст ошибки: controller: app\controllers\admin\RegisterController не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\Router.php | Строка: 99
+======
+[2019-03-07 16:48:40] Текст ошибки: method: actionIndex не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\Router.php | Строка: 96
+======
+[2019-03-07 21:28:43] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\Router.php | Строка: 104
+======
+[2019-03-07 21:50:12] Текст ошибки: controller: app\controllers\UsersController не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\Router.php | Строка: 99
+======
+[2019-03-07 21:50:18] Текст ошибки: file: <b>C:\OSPanel\domains\localhost\fw_v2/app/views/User/register.php</b> не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\base\View.php | Строка: 62
+======
+[2019-03-07 21:52:47] Текст ошибки: Too few arguments to function fw\core\base\Model::load(), 0 passed in C:\OSPanel\domains\localhost\fw_v2\app\controllers\UserController.php on line 15 and exactly 1 expected | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\base\Model.php | Строка: 33
+======
+[2019-03-07 21:53:24] Текст ошибки: Too few arguments to function fw\core\base\Model::load(), 0 passed in C:\OSPanel\domains\localhost\fw_v2\app\controllers\UserController.php on line 15 and exactly 1 expected | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\base\Model.php | Строка: 33
+======
+[2019-03-07 22:28:18] Текст ошибки: Array to string conversion | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\base\Model.php | Строка: 54
+======
+[2019-03-07 22:28:56] Текст ошибки: Array to string conversion | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\base\Model.php | Строка: 55
+======
+[2019-03-07 22:29:00] Текст ошибки: Array to string conversion | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\base\Model.php | Строка: 55
+======
+[2019-03-07 22:43:28] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'admin@mail.ru' for key 'email' | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\libs\rb.php | Строка: 768
+======
+[2019-03-07 22:51:44] Текст ошибки: Expected array, string given. | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\libs\rb.php | Строка: 10303
+======
+[2019-03-07 22:55:54] Текст ошибки: Class 'R' not found | Файл: C:\OSPanel\domains\localhost\fw_v2\app\controllers\UserController.php | Строка: 28
+======
+[2019-03-07 22:57:07] Текст ошибки: syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file | Файл: C:\OSPanel\domains\localhost\fw_v2\app\views\User\register.php | Строка: 44
+======
+[2019-03-07 23:45:23] Текст ошибки: Array to string conversion | Файл: C:\OSPanel\domains\localhost\fw_v2\app\controllers\admin\AppController.php | Строка: 21
+======
+[2019-03-07 23:47:18] Текст ошибки: file: <b>C:\OSPanel\domains\localhost\fw_v2/app/views/User/logout.php</b> не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\base\View.php | Строка: 62
+======
+[2019-03-07 23:47:26] Текст ошибки: file: <b>C:\OSPanel\domains\localhost\fw_v2/app/views/User/logout.php</b> не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\base\View.php | Строка: 62
+======
+[2019-03-07 23:54:22] Текст ошибки: syntax error, unexpected 'if' (T_IF) | Файл: C:\OSPanel\domains\localhost\fw_v2\app\views\layouts\default.php | Строка: 24
+======
+[2019-03-07 23:54:44] Текст ошибки: syntax error, unexpected '?>' | Файл: C:\OSPanel\domains\localhost\fw_v2\app\views\layouts\default.php | Строка: 24
+======
+[2019-03-08 21:35:19] Текст ошибки: Call to undefined function fw\core\base\files_exists() | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\base\View.php | Строка: 60
+======
+[2019-03-08 21:40:35] Текст ошибки: ob_end_flush(): failed to send buffer of ob_gzhandler (1) | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\ErrorHandler.php | Строка: 34
+======
+[2019-03-08 21:40:37] Текст ошибки: ob_end_flush(): failed to send buffer of ob_gzhandler (1) | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\ErrorHandler.php | Строка: 34
+======
+[2019-03-08 21:40:43] Текст ошибки: ob_end_flush(): failed to send buffer of ob_gzhandler (1) | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\ErrorHandler.php | Строка: 34
+======
+[2019-03-08 21:41:25] Текст ошибки: Function name must be a string | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\base\View.php | Строка: 67
+======
+[2019-03-08 21:41:27] Текст ошибки: Function name must be a string | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\base\View.php | Строка: 67
+======
+[2019-03-08 21:41:29] Текст ошибки: Function name must be a string | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\base\View.php | Строка: 67
+======
+[2019-03-08 21:41:30] Текст ошибки: Function name must be a string | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\base\View.php | Строка: 67
+======
+[2019-03-09 12:33:40] Текст ошибки: Could not connect to database (fw). | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\libs\rb.php | Строка: 1011
+======
+[2019-03-09 19:19:45] Текст ошибки: controller: app\controllers\FController не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\Router.php | Строка: 99
+======
+[2019-03-09 19:22:29] Текст ошибки: Method Test::__toString() must return a string value | Файл: C:\OSPanel\domains\localhost\fw_v2\public\index.php | Строка: 57
+======
+[2019-03-09 19:22:35] Текст ошибки: Method Test::__toString() must return a string value | Файл: C:\OSPanel\domains\localhost\fw_v2\public\index.php | Строка: 57
+======
+[2019-03-09 19:22:41] Текст ошибки: Method Test::__toString() must return a string value | Файл: C:\OSPanel\domains\localhost\fw_v2\public\index.php | Строка: 57
+======
+[2019-03-09 19:23:32] Текст ошибки: controller: app\controllers\FController не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\Router.php | Строка: 99
+======
+[2019-03-09 19:23:51] Текст ошибки: controller: app\controllers\FController не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\Router.php | Строка: 99
+======
+[2019-03-09 19:30:26] Текст ошибки: Undefined variable: uri | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\libs\Pagination.php | Строка: 79
+======
+[2019-03-09 19:31:09] Текст ошибки: Array to string conversion | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\libs\Pagination.php | Строка: 82
+======
+[2019-03-09 19:38:53] Текст ошибки: controller: app\controllers\FController не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\Router.php | Строка: 99
+======
+[2019-03-09 20:01:28] Текст ошибки: controller: app\controllers\FController не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\Router.php | Строка: 99
+======
+[2019-03-09 20:04:47] Текст ошибки: controller: app\controllers\FController не найден | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\core\Router.php | Строка: 99
+======
+[2019-03-09 20:19:59] Текст ошибки: Undefined offset: 1 | Файл: C:\OSPanel\domains\localhost\fw_v2\vendor\fw\libs\Pagination.php | Строка: 82
+======

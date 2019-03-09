@@ -9,6 +9,7 @@ return array(
     'fw\\' => array($vendorDir . '/fw'),
     'app\\' => array($baseDir . '/app'),
     'Whoops\\' => array($vendorDir . '/filp/whoops/src/Whoops'),
+    'Valitron\\' => array($vendorDir . '/vlucas/valitron/src/Valitron'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
     'PHPMailer\\PHPMailer\\' => array($vendorDir . '/phpmailer/phpmailer/src'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),

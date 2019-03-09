@@ -19,6 +19,10 @@ class ComposerStaticInit30d8c7b9a89a7c8c28d6c566b52ce38e
         array (
             'Whoops\\' => 7,
         ),
+        'V' => 
+        array (
+            'Valitron\\' => 9,
+        ),
         'P' => 
         array (
             'Psr\\Log\\' => 8,
@@ -42,6 +46,10 @@ class ComposerStaticInit30d8c7b9a89a7c8c28d6c566b52ce38e
         'Whoops\\' => 
         array (
             0 => __DIR__ . '/..' . '/filp/whoops/src/Whoops',
+        ),
+        'Valitron\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/vlucas/valitron/src/Valitron',
         ),
         'Psr\\Log\\' => 
         array (

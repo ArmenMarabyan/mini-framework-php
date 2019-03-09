@@ -7,6 +7,7 @@ namespace app\controllers;
 use app\models\Main;
 use fw\core\App;
 use fw\core\base\View;
+use fw\libs\Pagination;
 
 
 class MainController extends AppController {
@@ -50,11 +51,17 @@ class MainController extends AppController {
 
 //        \R::fancyDebug(true);
 
-        $newsList = \R::findAll('news');// запрос
-//        $this->setMeta('Главная', 'Описание', 'Ключевые слова');
-//        $meta = $this->meta;
+        $total = \R::count('news');
+        $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
+        $perpage = 2;
+
+        $pagination = new Pagination($page, $perpage, $total);
+        $start = $pagination->getStart();
+
+        $newsList = \R::findAll('news', "LIMIT $start,$perpage");// запрос
+
         View::setMeta('Главная', 'Описание', 'Ключевые слова');
-        $this->set(compact('newsList', 'meta'));
+        $this->set(compact('newsList', 'meta', 'pagination'));
 
     }
 

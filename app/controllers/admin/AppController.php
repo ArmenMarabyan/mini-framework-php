@@ -9,14 +9,14 @@ class AppController extends Controller{
 
     public function __construct($route) {
         parent::__construct($route);
-        $this->checkIsAdmin();
+        echo $this->checkIsAdmin();
     }
 
     public function checkIsAdmin() {
 
         if(isset($_SESSION['user'])) {
             $model = new User;
-            $userId = $_SESSION['user'];
+            $userId = $_SESSION['user']['id'];
 
             $user = \R::findOne('users', "id = $userId");
 
@@ -24,7 +24,6 @@ class AppController extends Controller{
                 return true;
             }
         }
-//        die('Access denied');
-        echo 'access denied';
+        die('Access denied');
     }
 }
